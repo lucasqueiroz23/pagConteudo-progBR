@@ -10,6 +10,41 @@ body {
   color: #555;
 }
 
+h1 {
+  text-align: left;
+  margin-bottom: auto;
+  margin: auto;
+  font-size: 50px;
+  color: #111;
+}
+
+h2 {
+  color: #111;
+}
+
+a {
+  text-decoration: none;
+  color:#fd8a24;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+figure {
+  width:700px;
+  margin: auto;
+}
+
+img {
+  max-width: 700px;
+}
+
+figcaption {
+  font-size:14px;
+}
+
 #top-bar {
   background-color: #333;
   border-bottom: 8px solid #fd8a24;
@@ -37,13 +72,6 @@ body {
   margin-bottom: 30px;
 }
 
-h1 {
-  text-align: left;
-  margin-bottom: auto;
-  margin: auto;
-  font-size: 50px;
-  color: #111;
-}
 
 #subtexto-header {
   margin-top:15px;
@@ -70,4 +98,19 @@ h1 {
 
 .rede-social {
   margin-right: 10px;
+}
+
+#content {
+  width: 700px;
+  margin: auto;
+}
+
+.texto-content {
+  font-size:20px;
+}
+
+#footer {
+  margin-top:50px;
+  background-color: #333;
+  height: 50px;
 }
